@@ -35,36 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "CVR College of Engineering",
-    location: "Hyderabad, India",
+    title: "Software Engineering Intern, Apple",
+    location: "Cupertino, CA",
     description:
-      "I graduated with a bachelors degree in computer science and engineering. ",
-    icon: React.createElement(LuGraduationCap),
-    date: "2016-2020",
-  },
-  {
-    title: "Software Engineer, Virtusa",
-    location: "Hyderabad,India",
-    description:
-      "I worked as a Software Engineer for 1 year working on couple of projects including full stack developement.",
+      "Automated Frost web app for seamless real-time collaboration, enhanced performance with GraphQL, and boosted scalability with RabbitMQ/Celery. Rigorous testing secured a 10% bug reduction for a rock-solid experience.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "Jun 2022-Sep 2022",
   },
   {
     title: "University of California",
     location: "Riverside, CA",
     description:
-      "I graduated with a masters degree in computer science with a GPA of 3.75.",
+      "Recently completed Master's degree in Computer Science with 3.75 GPA.",
     icon: React.createElement(LuGraduationCap),
     date: "2022-2023",
   },
   {
-    title: "Software Engineering Intern, Apple",
-    location: "Cupertino, CA",
+    title: "Software Engineer, Virtusa",
+    location: "Hyderabad,India",
     description:
-      "I was an intern in Communication applications team at Apple. I worked with feature development of automation web application called Frost.",
+      "Built a secure and scalable employee management backend using Spring Boot microservices and MySQL. Designed REST APIs for employee CRUD operations and integrated with auth/authorization for data security.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jun 2022-Sep 2022",
+    date: "2020 - 2021",
+  },
+  {
+    title: "CVR College of Engineering",
+    location: "Hyderabad, India",
+    description:
+      "Graduated with an 8.9 GPA in Bachelor of Technology, Computer Science & Engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016-2020",
   },
 ] as const;
 
