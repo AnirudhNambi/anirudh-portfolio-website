@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import deduplication from "@/public/Deduplication.png";
+import twittersearch from "@/public/twittersearch.png";
+import weatherforecast from "@/public/weatherforecast.png";
 
 export const links = [
   {
@@ -16,16 +16,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,73 +35,81 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "CVR College of Engineering",
+    location: "Hyderabad, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a bachelors degree in computer science and engineering. ",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2016-2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer, Virtusa",
+    location: "Hyderabad,India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Software Engineer for 1 year working on couple of projects including full stack developement.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "University of California",
+    location: "Riverside, CA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I graduated with a masters degree in computer science with a GPA of 3.75.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022-2023",
+  },
+  {
+    title: "Software Engineering Intern, Apple",
+    location: "Cupertino, CA",
+    description:
+      "I was an intern in Communication applications team at Apple. I worked with feature development of automation web application called Frost.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2022-Sep 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Advanced Weather Forecasting System",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Built a serverless weather app backend with machine learning for accurate forecasts and an engaging UI.",
+    tags: ["React", "FastAPI", "PySpark", "AWS", "Hadoop", "Python"],
+    imageUrl: weatherforecast,
   },
   {
-    title: "rmtDev",
+    title: "Twitter Search Engine",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Built a high-accuracy, lightning-fast Twitter search engine using NLP and efficient crawling techniques.",
+    tags: ["Python", "Numpy", "Pandas", "Pylucene", "BERT"],
+    imageUrl: twittersearch,
   },
   {
-    title: "Word Analytics",
+    title: "Secure File Storage with Data Deduplication",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Secure, deduplicated file storage system with user access control built with Java Servlets and AES encryption.",
+    tags: ["HTML", "CSS", "Java", "SHA", "MySQL"],
+    imageUrl: deduplication,
   },
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Python",
+  "Django",
+  "Spring Boot",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
+  "MySQL",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "RabbitMQ",
+  "Docker",
+  "pandas",
 ] as const;
