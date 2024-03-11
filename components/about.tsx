@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
       
-Recent computer science graduate and Software Engineer (2+ years), I excel in Java, Python, and Javascript, passionate about building highly scalable backend systems, automation tools, and data processing solutions. Driven by innovation and delivering efficiency, I honed my skills at Apple Intern, enhancing Frost's automation and user experience, and at Virtusa, spearheading a RESTful employee service in an employee management system. Eager to collaborate on impactful projects!
+Recent computer science graduate and Software Engineer (2+ years), I excel in Java, Python, and Javascript, passionate about building highly scalable backend systems, automation tools, and data processing solutions. Driven by innovation and delivering efficiency, I honed my skills at Apple Internship, enhancing Frost's automation and user experience, and at Virtusa, spearheading a RESTful employee service in an employee management system. Eager to collaborate on impactful projects!
       </p>
     </motion.section>
   );
