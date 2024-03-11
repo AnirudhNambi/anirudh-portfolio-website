@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "Built a secure and scalable employee management backend using Spring Boot microservices and MySQL. Designed REST APIs for employee CRUD operations and integrated with auth/authorization for data security.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "2020 - 2022",
   },
   {
     title: "CVR College of Engineering",
