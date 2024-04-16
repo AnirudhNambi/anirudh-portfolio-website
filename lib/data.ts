@@ -35,12 +35,21 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer,Esteem It Solutions",
+    location: "Remote",
+    description:
+      "Built a web app to explore books. Users can search details (Open Library API) and get quick summaries (Gemini API). Secure and scalable Django/React/PostgreSQL app for easy book management.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2024-Now",
+    
+  },
+  {
     title: "Software Engineering Intern, Apple",
     location: "Cupertino, CA",
     description:
       "Automated Frost web app for seamless real-time collaboration, enhanced performance with GraphQL, and boosted scalability with RabbitMQ/Celery. Rigorous testing secured a 10% bug reduction for a rock-solid experience.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jun 2022-Sep 2022",
+    date: "Jun 2023-Sep 2023",
   },
   {
     title: "University of California",
@@ -70,6 +79,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Serverless File Upload and Processing System",
+    description: 
+      "Implemented a frontend page using React, TailwindCSS, to receive text and file inputs, generating pre-signed URLs for direct browser uploads to S3 bucket, and stored input data in DynamoDB Table using API Gateway and Lambda. Optimized resource utilization by configuring a DynamoDB event stream to invoke a Lambda function that provisions and deprovisions EC2 instances on-demand to run a script, managed AWS infrastructure using CDK, and developed Lambda functions using the SDK.",
+    tags: ["AWS","API","React","Tailwind"],
+    imageUrl:,
+  },
+  {
     title: "Advanced Weather Forecasting System",
     description:
       "Built a serverless weather app backend with machine learning for accurate forecasts and an engaging UI.",
@@ -96,6 +112,7 @@ export const skillsData = [
   "Java",
   "Python",
   "Django",
+  "AWS",
   "Spring Boot",
   "HTML",
   "CSS",
