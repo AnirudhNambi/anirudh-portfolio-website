@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "Serverless File Upload and Processing System",
     description: 
-      "Implemented a frontend page using React, TailwindCSS, to receive text and file inputs, generating pre-signed URLs for direct browser uploads to S3 bucket, and stored input data in DynamoDB Table using API Gateway and Lambda. Optimized resource utilization by configuring a DynamoDB event stream to invoke a Lambda function that provisions and deprovisions EC2 instances on-demand to run a script, managed AWS infrastructure using CDK, and developed Lambda functions using the SDK.",
+      "This serverless web app utilizes React/TailwindCSS for user input and leverages AWS Amplify for S3 pre-signed URLs enabling direct file uploads. It stores data efficiently in DynamoDB and utilizes serverless Lambda functions triggered by API Gateway for cost-effective backend processing.",
     tags: ["AWS","API","React","Tailwind"],
     imageUrl: serverless,
   },
