@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import deduplication from "@/public/Deduplication.png";
 import twittersearch from "@/public/twittersearch.png";
 import weatherforecast from "@/public/weatherforecast.png";
+import serverless from "@/public/serverless.png";
 
 export const links = [
   {
@@ -83,7 +84,7 @@ export const projectsData = [
     description: 
       "Implemented a frontend page using React, TailwindCSS, to receive text and file inputs, generating pre-signed URLs for direct browser uploads to S3 bucket, and stored input data in DynamoDB Table using API Gateway and Lambda. Optimized resource utilization by configuring a DynamoDB event stream to invoke a Lambda function that provisions and deprovisions EC2 instances on-demand to run a script, managed AWS infrastructure using CDK, and developed Lambda functions using the SDK.",
     tags: ["AWS","API","React","Tailwind"],
-    imageUrl:,
+    imageUrl: serverless,
   },
   {
     title: "Advanced Weather Forecasting System",
